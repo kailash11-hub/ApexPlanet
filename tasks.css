@@ -1,0 +1,96 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffd51a;
+      padding: 10px 20px;
+      height: 80px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    header img {
+      height: 60px;
+      width: auto;
+    }
+
+    header div:last-child {
+      font-size: 22px;
+      font-weight: bold;
+      color: #0d08ff;
+    }
+
+    .heads {
+      text-align: center;
+      background-image: linear-gradient(to right, rgb(106, 239, 237), rgb(187, 220, 110));
+      color: white;
+      padding: 30px 10px;
+      border-radius: 10px;
+      margin: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .heads h1,
+    .heads h2,
+    .heads h3,
+    .heads h4,
+    .heads h5,
+    .heads h6 {
+      margin: 5px 0;
+    }
+
+    .para {
+      text-align: center;
+      background-image: linear-gradient(to right, grey, purple);
+      color: white;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .skil {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      background-image: linear-gradient(to right, rgb(250, 132, 228), pink);
+      padding: 30px 20px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .skil img {
+      height: 160px;
+      width: auto;
+      border-radius: 8px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    button {
+      display: block;
+      margin: 30px auto;
+      padding: 12px 24px;
+      font-size: 16px;
+      color: white;
+      background-color: #0d08ff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    button:hover {
+      background-color: #0b07d1;
+    }
